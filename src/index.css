@@ -1,0 +1,91 @@
+body {
+  /*background-color: #737060;*/
+  background-color: #8E8C7B;
+  background-size: cover;
+  /*background-color: #7C7C7C;*/
+  padding: 25px;
+  margin: 0;
+  text-align: left;
+  
+
+}
+h1, h2, p, ul, li {
+  font-family: "Roboto" , sans-serif;
+  text-align: left;
+  /*text-align: justify;*/
+}
+ 
+img {
+	position: relative;
+	max-width: 70%;
+	display: block;
+  margin: auto;
+}
+img.logo {
+  position: relative;
+  max-width: 30%;
+  display: block;
+  margin: auto;
+
+}
+
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+ul.footer li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.footer {
+  background-color: #111;
+  padding: 0;
+}
+ul.footer li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: #BFA300;
+  /*background-color: #975050;*/
+}
+
+#quote {
+    quotes: "'" "'";
+}
+
+
+
+.Particles {
+
+  width: 100%;
+  height: 30%;
+	background: $background;
+}
