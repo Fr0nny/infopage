@@ -8,10 +8,12 @@ class Contact extends Component {
       <div>
         <h2>Ihr habt Fragen?</h2>
         <p>
-          Schreibt uns einfach eine Mail an <a href='mailto:info@triggered-band.de'>info@triggered-band.de</a>!
+          Schreibt uns einfach eine Mail an <a href='mailto:triggered.mz@gmail.com'>triggered.mz@gmail.com</a>
         </p>
         <p>
-          Oder kontaktiert uns über <a target="_blank" rel="noopener noreferrer" href='https://www.facebook.com/triggered.mainz'>Facebook</a>!
+          Oder kontaktiert uns über <a target="_blank" rel="noopener noreferrer"
+                                      href='https://www.facebook.com/triggered.mainz'>Facebook
+                                    </a>!
         </p>
         <img
               className="logo"

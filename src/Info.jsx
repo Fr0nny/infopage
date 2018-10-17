@@ -4,7 +4,6 @@ class Info extends Component {
   render() {
     return (
       <div>
-
         <h1>Biografie</h1>
                   <p style={{textAlign: "justify"}}>
                     Gegründet wurde die Band Triggered im Oktober 2016 von den drei
@@ -43,8 +42,17 @@ class Info extends Component {
                     Triggered wollen etwas in ihrem Publikum auslösen. Die Musik soll mitreißen, das
                     Publikum anheizen und bei jedem Auftritt die Liebe und der Spaß an der Musik gefeiert
                     werden.
-                  </p>
-       
+                  </p><br />
+
+          <div>
+            <h3>Bisherige Auftritte:</h3>
+                  <ul>
+                    <li>Kulturcafé (QKaff) - Mainz - 18.12.2017</li>
+                    <li>Alexander The Great (ATG), Support für <strong>"Crossplane"</strong> - Mainz - 17.03.2018</li>
+                    <li>BURR Open Air - Mörschied - 01.06.2018</li>
+                  </ul>
+          </div>
+      
       </div>
     );
   }
